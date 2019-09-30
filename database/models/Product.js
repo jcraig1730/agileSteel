@@ -1,10 +1,7 @@
 const mongoose = require('mongoose');
 const { mongoConfig } = require('../../config/atlasKey.js');
 
-
-
 const { Schema } = mongoose;
-
 
 const ProductSchema = new Schema({
   shape: String,
